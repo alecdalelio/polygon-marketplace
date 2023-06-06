@@ -1,14 +1,3 @@
-gm! We’ve been chosen to #AlchemyAmplify! We’ve built [your project description here]. Glad to partner with frens like @alchemyplatform
-
-"Unrecognized request argument supplied: max_token"
-
-"
-
-One piece of music that inspires me is "The Show Must Go On" by Queen."
-
-——
-
-
 const { expect } = require("chai");
 const { ethers } = require("hardhat");
 
@@ -50,4 +39,3 @@ describe("NFTMarket", function () {
     console.log("items: ", items);
   });
 });
-
